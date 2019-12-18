@@ -1,5 +1,20 @@
 [
   {
     "email": "test@test.com"
+  },
+  {
+    "email": "pat@test.com",
+    "password": "pass",
+    "id": "7818d353"
+  },
+  {
+    "email": "clint@test.com",
+    "password": "421e985a9e2fe9fd30622727af074260e880b5336c8b1e5213ee58e527cc06bc9cea4451aed5189e2f2f08b8d12bf567e19370b1a997bb14aa719349fa97b0b4.a5c1a9022fe8ffea",
+    "id": "d8dd6c99"
+  },
+  {
+    "email": "casey@test.com",
+    "password": "87a936466cc05545fcebdd5c881c1ad0fc355abb0633012f10a6ae94b01b91ebb216e0363145bfecc46050294281cc247429000d3f47ce76cea82d3cb6e55087.40d115f7036c438e",
+    "id": "4188892c"
   }
 ]
