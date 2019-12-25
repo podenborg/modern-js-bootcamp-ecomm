@@ -2,7 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
 const authRouter = require('./routes/admin/auth');
-const productsRouter = require('./routes/admin/products');
+const productsRouter = require('./routes/products');
+const adminProductsRouter = require('./routes/admin/products');
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(cookieSession({
 // use route handlers
 app.use(authRouter);
 app.use(productsRouter);
+app.use(adminProductsRouter);
 
 app.listen(3000, () => {
   console.log('Listing on port 3000.');
