@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
+const cartsRouter = require('./routes/carts');
 const authRouter = require('./routes/admin/auth');
 const productsRouter = require('./routes/products');
 const adminProductsRouter = require('./routes/admin/products');
@@ -16,6 +17,7 @@ app.use(cookieSession({
 
 // use route handlers
 app.use(authRouter);
+app.use(cartsRouter);
 app.use(productsRouter);
 app.use(adminProductsRouter);
 
